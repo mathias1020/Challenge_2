@@ -11,42 +11,20 @@ import fire
 import questionary
 import csv
 from pathlib import Path
-from qualifier.utils.fileio import save_qualifying_loans, load_bank_data
-
-
+from qualifier.utils.fileio import (
+    save_qualifying_loans,
+    load_bank_data,
+    get_applicant_info
+)
 from qualifier.utils.fileio import load_csv
-
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
 )
-
 from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
-
-
-def get_applicant_info():
-    """Prompt dialog to get the applicant's financial information.
-
-    Returns:
-        Returns the applicant's financial information.
-    """
-
-    credit_score = questionary.text("What's your credit score?").ask()
-    debt = questionary.text("What's your current amount of monthly debt?").ask()
-    income = questionary.text("What's your total monthly income?").ask()
-    loan_amount = questionary.text("What's your desired loan amount?").ask()
-    home_value = questionary.text("What's your home value?").ask()
-
-    credit_score = int(credit_score)
-    debt = float(debt)
-    income = float(income)
-    loan_amount = float(loan_amount)
-    home_value = float(home_value)
-
-    return credit_score, debt, income, loan_amount, home_value
 
 
 def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_value):
