@@ -11,7 +11,8 @@ import fire
 import questionary
 import csv
 from pathlib import Path
-from qualifier.utils.fileio import save_qualifying_loans
+from qualifier.utils.fileio import save_qualifying_loans, load_bank_data
+
 
 from qualifier.utils.fileio import load_csv
 
@@ -24,21 +25,6 @@ from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
-
-
-def load_bank_data():
-    """Ask for the file path to the latest banking data and load the CSV file.
-
-    Returns:
-        The bank data from the data rate sheet CSV file.
-    """
-
-    csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
-    csvpath = Path(csvpath)
-    if not csvpath.exists():
-        sys.exit(f"Oops! Can't find this path: {csvpath}")
-
-    return load_csv(csvpath)
 
 
 def get_applicant_info():
@@ -102,24 +88,6 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     print(f"Found {len(bank_data_filtered)} qualifying loans")
 
     return bank_data_filtered
-
-
-# def save_qualifying_loans(qualifying_loans):
-#     """Saves the qualifying loans to a CSV file.
-
-#     Args:
-#         qualifying_loans (list of lists): The qualifying bank loans.
-#     """
-#     # @TODO: Complete the usability dialog for savings the CSV Files.
-#     # YOUR CODE HERE!
-#     # Set the output file path
-
-#     output_path = Path("./data/qualifying_loans.csv")
-
-#     with open(output_path, 'w', newline = '') as csvfile:
-#         loan_writer = csv.writer(csvfile)
-#         for loan in qualifying_loans:
-#             loan_writer.writerow(loan)
 
 def run():
     """The main function for running the script."""
