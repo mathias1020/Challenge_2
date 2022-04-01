@@ -76,7 +76,22 @@ def save_qualifying_loans(qualifying_loans):
     # YOUR CODE HERE!
     # Set the output file path
 
-    output_path = Path("./data/qualifying_loans.csv")
+    save_yes_no = questionary.confirm("Would you like to save the results as a CSV file?").ask()
+    
+    if save_yes_no == True:
+        if not qualifying_loans:
+            print("There are 0 qualifying loans.")
+            sys.exit("Thanks and have an awesome day!!")
+        else:
+            output_path = questionary.text("Enter file path to save CSV file:").ask()
+            output_path = Path(output_path)
+            save_csv(qualifying_loans, output_path)
+        
+    elif save_yes_no == False:
+        sys.exit("Thanks and have an awesome day!")
+
+    
+def save_csv(qualifying_loans, output_path):
 
     with open(output_path, 'w', newline = '') as csvfile:
         loan_writer = csv.writer(csvfile)
