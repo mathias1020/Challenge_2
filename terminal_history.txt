@@ -1,0 +1,248 @@
+  800  git push
+  801  git add README.md
+  802  git status
+  803  git status
+  804  ls
+  805  git add README.md
+  806  git status
+  807  git status
+  808  git add README.md
+  809  git status
+  810  ls
+  811  git add README.md
+  812  git status
+  813  git status
+  814  git add README.md
+  815  git status
+  816  git commit -m "Styling commit"
+  817  git push
+  818  git add README.md
+  819  git status
+  820  git add README.md
+  821  git status
+  822  git status
+  823  git commit -m "more styling"
+  824  git add README.md
+  825  git status
+  826  git commit -m "more styling"
+  827  git push
+  828  git add README.md
+  829  git status
+  830  git commit -m "hoizontal rule"
+  831  git push
+  832  git add README.md
+  833  gist status
+  834  git status
+  835  git commit -m "markup for code"
+  836  git push
+  837  cd "Challenge 2"
+  838  cd Desktop
+  839  cd home
+  840  cd ~
+  841  cd Desktop
+  842  ls
+  843  cd "Fintech Bootcamp"
+  844  ls
+  845  cd "Module 2"
+  846  ls
+  847  cd "Challenge 2"
+  848  git clone https://github.com/mathias1020/Challenge_2.git
+  849  ls
+  850  cd "Challenge 2"
+  851  ls
+  852  ls
+  853  cd "Challenge 2"
+  854  ls
+  855  cd ..
+  856  cd ~
+  857  cd Desktop
+  858  cd "Fintech Boorcamp"
+  859  cd "Fintech Bootcamp"
+  860  ls
+  861  cd "Module 2"
+  862  ls
+  863  git clone https://github.com/mathias1020/Challenge_2.git
+  864  ls
+  865  cd "Challenge 2"
+  866  cd Challenge_2
+  867  ls
+  868  git status
+  869  git add README.md
+  870  git status
+  871  git commit -m "Initial README.md template"
+  872  git commit
+  873  git push
+  874  touch app.py
+  875  git status
+  876  git add app.py
+  877  git status
+  878  git commit -m "Setting up initial app.py file"
+  879  git push
+  880  git status
+  881  mkdir data
+  882  cd data
+  883  ls
+  884  cd ..
+  885  git status
+  886  git add data/
+  887  git status
+  888  git commit -m "Initial data folder setup"
+  889  git push
+  890  mkdir qualifier
+  891  ls
+  892  cd qualifier
+  893  ls
+  894  mkdir utils
+  895  mkdir filters
+  896  ls
+  897  cd filters
+  898  touch calculators.py
+  899  touch fileio.py
+  900  ls
+  901  cd ..
+  902  cd ..
+  903  git status
+  904  git add qualifier/
+  905  git status
+  906  git commit -m "Initial setup for qualifier files"
+  907  git push
+  908  git status
+  909  git add qualifer/utils/
+  910  git status
+  911  git add qualifier/
+  912  git status
+  913  git commit -m "Correction"
+  914  git push
+  915  lc
+  916  ls
+  917  cd qualifier
+  918  ls
+  919  cd filters
+  920  ls
+  921  touch credit_score.py
+  922  touch debt_to_income.py
+  923  touch loan_to_value.py
+  924  touch max_loan_size.py
+  925  cd ..
+  926  cd ..
+  927  git status
+  928  git add qualifier/
+  929  git status
+  930  git commit -m "Initial filters set up"
+  931  git push
+  932  ls
+  933  cd "Fintech Bootcamp"
+  934  ls
+  935  cd Desktop
+  936  cd "Fintech Bootcamp"
+  937  ls
+  938  cd "Module 2"
+  939  ls
+  940  cd Challenge_2
+  941  ls
+  942  git status
+  943  git add app.py
+  944  git status
+  945  git commit -m "save function working"
+  946  git push
+  947  git status
+  948  git status
+  949  git status
+  950  ls
+  951  cd Desktop
+  952  ls
+  953  cd "Fintech Bootcamp\nls\n"
+  954  cd "Fintech Bootcamp"
+  955  ls
+  956  cd "Module 2"
+  957  ls
+  958  cd atm
+  959  git clone https://github.com/mathias1020/atm.git
+  960  git status
+  961  git status
+  962  git status
+  963  ls
+  964  cd ..
+  965  cd ~
+  966  cd Desktop
+  967  cd "Fintech Bootcamp"
+  968  ls
+  969  cd "Module 2"
+  970  git clone https://github.com/mathias1020/atm.git
+  971  git status
+  972  ls
+  973  cd atm
+  974  ls
+  975  git status
+  976  git status
+  977  git add actions/
+  978  git status
+  979  git add atm.py
+  980  git status
+  981  git add utils.py
+  982  git status
+  983  git add data/
+  984  git status
+  985  git commit -m "Initial commit to sync repos"
+  986  git git push
+  987  git push
+  988  git status
+  989  git status
+  990  git status
+  991  git status
+  992  git status
+  993  git status
+  994  dir
+  995  git status
+  996  git status
+  997  git add utils.py
+  998  git commit -m "delete statement"
+  999  git push
+ 1000  git status
+ 1001  cd
+ 1002  ls
+ 1003  cd Desktop
+ 1004  cd "Fintech Bootcamp"
+ 1005  ls
+ 1006  cd "Module 1"
+ 1007  ls
+ 1008  cd "Challenge 1"
+ 1009  git status
+ 1010  cd ..
+ 1011  cd ..
+ 1012  ls
+ 1013  cd "Module 2"
+ 1014  ls
+ 1015  cd "Challenge 2"
+ 1016  cd Challenge_2
+ 1017  ls
+ 1018  git status
+ 1019  git status
+ 1020  git add app.py
+ 1021  git add qualifier/
+ 1022  git status
+ 1023  git commit -m "Move save function into fileio.py"
+ 1024  git push
+ 1025  git status
+ 1026  git add app.py
+ 1027  git add qualifier/
+ 1028  git status
+ 1029  git commit -m "moved load data functio"
+ 1030  git push
+ 1031  git status
+ 1032  git add app.py
+ 1033  git add qualifier/
+ 1034  git status
+ 1035  git commit -m "more reorganization..."
+ 1036  git push
+ 1037  git status
+ 1038  git add qualifier
+ 1039  git status
+ 1040  git commit -m "Completed acceptance criteria"
+ 1041  git push
+ 1042  history 50 > terminal_history.txt
+ 1043  history 50 > terminal_history.txt
+ 1044  history
+ 1045  history 900
+ 1046  history 900 history.txt
+ 1047  history 900 > terminal_history.txt
