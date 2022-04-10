@@ -67,7 +67,7 @@ def get_applicant_info():
     return credit_score, debt, income, loan_amount, home_value
 
 def save_qualifying_loans(qualifying_loans):
-    """Saves the qualifying loans to a CSV file.
+    """Handles user interaction to confirm save of qualifying loans & calls save_csv function if user indicates 'Y'
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
@@ -92,6 +92,11 @@ def save_qualifying_loans(qualifying_loans):
 
     
 def save_csv(qualifying_loans, output_path):
+    """Saves the qualifying loans to a CSV file.
+    
+     Args:
+        qualifying_loans (list of lists): The qualifying bank loans.
+    """
 
     with open(output_path, 'w', newline = '') as csvfile:
         loan_writer = csv.writer(csvfile)

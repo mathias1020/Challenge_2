@@ -1,33 +1,37 @@
-# Challenge_2
+# **Loan Qualifier**
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
-
----
-
-## Technologies
-
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This Loan Qualifier application provides a list of lenders who offer loans meeting the user provided criteria.  The applicant is prompted to enter basic loan & personal information.  Once entered, this application returns the list of qualifying loans and asks the user if they would like to save this list in CSV format.
 
 ---
 
-## Installation Guide
+# **Technologies**
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
-
----
-
-## Usage
-
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+This application is a CLI application and leverages the questionary and fire libraries for user interaction.
 
 ---
 
-## Contributors
+# **Installation Guide**
+
+Before running the application you need to install the following dependencies:
+```python
+conda install -c conda-forge questionary
+conda install -c conda-forge fire
+```
+
+---
+
+# **Usage**
+
+![User provided input.](images/user_input.png)
+
+---
+
+# **Contributors**
 
 In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
 
 ---
 
-## License
+# **License**
 
 When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
