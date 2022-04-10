@@ -21,15 +21,15 @@ conda install -c conda-forge fire
 ---
 
 # **Usage**
-User prompted for the following input:
+## User prompted for the following input:
 
 ![User provided input.](images/user%20input.png)
 
-Application responds with the following output:
+## Application responds with the following output:
 
 ![Application response.](images/application_response.png)
 
-Finally, the user is asked to confirm if they would like to save the results to a CSV file:
+## Finally, the user is asked to confirm if they would like to save the results to a CSV file:
 
 ![User is asked if they would like to save the list of qualifying loans.](images/save_confirmation.png)
 ---
