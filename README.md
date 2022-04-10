@@ -1,6 +1,6 @@
 # **Loan Qualifier**
 
-This Loan Qualifier application provides a list of lenders who offer loans meeting the user provided criteria.  The applicant is prompted to enter basic loan & personal information.  Once entered, this application returns the list of qualifying loans and asks the user if they would like to save this list in CSV format.
+This Loan Qualifier application provides a list of lenders who offer loans meeting the user provided criteria.  The applicant is prompted to enter basic loan & personal information.  Once entered, this application returns a list of qualifying loans and asks the user if they would like to save the list to a CSV file.
 
 ---
 
@@ -21,17 +21,29 @@ conda install -c conda-forge fire
 ---
 
 # **Usage**
+User prompted for the following input:
 
-![User provided input.](images/user_input.png)
+![User provided input.](images/user%20input.png)
 
+Application responds with the following output:
+
+![Application response.](images/application_response.png)
+
+Finally, the user is asked to confirm if they would like to save the results to a CSV file:
+
+![User is asked if they would like to save the list of qualifying loans.](images/save_confirmation.png)
 ---
 
 # **Contributors**
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Developed by:
+
+Matthew Crater
+
+[Linked In](https://www.linkedin.com/in/matt-crater/)
 
 ---
 
 # **License**
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+MIT
